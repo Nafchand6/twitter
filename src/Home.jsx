@@ -1,14 +1,16 @@
-/* import React from "react";
+import React from "react";
 import Feed from "./Feed";
-import HomeBox from "./HomeBox";
 import Widgets from "./Widgets";
-function Home() {
+import HomeBox from "./HomeBox";
+
+
+export default function Home() {
   return (
     <HomeBox>
       <Feed />
       <Widgets />
-    </HomeBox>
+      </HomeBox>
+
   );
 }
 
-export default Home; */

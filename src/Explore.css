@@ -1,7 +1,33 @@
-.explore{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px 20px;
-    border-bottom: 0.5px var(--border-color) solid;
-  }
+.Explore {
+  flex: 0.2;
+  width: 50%;
+  justify-content:center;
+}
+
+.Explore::-webkit-scrollbar {
+  display: none;
+}
+
+.Explore {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.Explore__header {
+  display: flex;
+  align-items: center;
+  background-color: var(--twitter-background);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+  border: none;
+  border-width: none;
+  background-color: var(--twitter-background);
+  outline: none;  
+}
+
+.Explore__searchIcon {
+  color: gray;
+}
+
