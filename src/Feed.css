@@ -1,17 +1,20 @@
  .feed {
   flex: 0.7;
   border-right: 1px solid var(--twitter-background);
+  border-left: 1px solid var(--twitter-background);
   min-width: fit-content;
-  overflow-y: scroll;
 }
 
-.feed::-webkit-scrollbar {
-  display: none;
+.feed::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #D62929;
 }
 
-.feed {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+.feed::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
 }
 
 .feed__header {

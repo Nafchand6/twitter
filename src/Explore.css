@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .explore{
     display: flex;
     flex-direction: row;
@@ -5,3 +6,36 @@
     padding: 10px 20px;
     border-bottom: 0.5px var(--border-color) solid;
   }
+=======
+.Explore {
+  flex: 0.3;
+  width: 50%;
+  justify-content:center;
+  
+}
+
+.Explore::-webkit-scrollbar {
+  display: none;
+}
+
+.Explore {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.Explore_header {
+  display: flex;
+  align-items: center;
+  background-color: var(--twitter-background);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 80px;
+  background-color: var(--twitter-background);
+  width: 290%;
+}
+
+.Explore_searchIcon {
+  color: gray;
+}
+>>>>>>> Stashed changes

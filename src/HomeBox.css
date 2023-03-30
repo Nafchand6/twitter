@@ -1,0 +1,27 @@
+<<<<<<< Updated upstream
+=======
+/* .Home {
+    display: flex !important;
+    flex-direction: row !important;
+    padding: 0 10px;
+    max-width: 1300px ;
+    margin-left: auto ;
+    margin-right: auto;
+    height: 100vh;
+  }
+  .HomeBox {
+    max-width: 1300px ;
+    margin-left: auto ;
+    margin-right: auto;
+    flex: 0.8;
+    overflow-y: scroll;
+    display: flex !important;
+    flex-direction: row !important;
+    height: 100vh;
+  } 
+  .Explore {
+    flex: 0.2;
+    width: 50%;
+    justify-content:center;
+  } */
+>>>>>>> Stashed changes
