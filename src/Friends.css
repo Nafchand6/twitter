@@ -1,0 +1,16 @@
+.friends {
+    display: flex;
+    flex-direction: column;
+    background-color: #e9f0f7;
+    border-radius: 20px;
+    margin: 15px 0px;
+    margin-top: 80px
+  }
+  .friendsHeader {
+    padding: 10px 15px;
+    color: #060505;
+    display: inline;
+    font-size: 19px;
+    font-weight: 800;
+    border-bottom: 0.5px var(--border-color) solid;
+  }
